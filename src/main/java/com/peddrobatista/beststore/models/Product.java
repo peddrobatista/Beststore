@@ -1,6 +1,6 @@
 package com.peddrobatista.beststore.models;
 
-import java.sql.Date;
+import java.util.Date;
 
 import jakarta.persistence.*;
 
@@ -17,7 +17,7 @@ public class Product {
 	private String category;
 	private double price;
 	
-	@Column(columnDefinition = "TEXT")
+	@Column(columnDefinition="TEXT")
 	private String description;
 	private Date createdAt;
 	private String imageFileName;
